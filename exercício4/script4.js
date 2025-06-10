@@ -1,14 +1,14 @@
 let inscritos = 0;
 let equipe = 0;
 
-function calcular(){
+function calcular() {
     inscritos +=1;
     equipes = parseInt(inscritos / 3);
-    alert("Número de inscritos: " + inscritos + " Equipes: " + equipes);
+    alert("Número de inscritos: " + inscritos + " . Equipes: " + equipes);
 
-    if(equipes >=4) (
+    if(equipes >= 4) {
         alert("É possível formar 4 equipes. O campeonato pode iniciar!");
-    )
+    }
 }
 
 
