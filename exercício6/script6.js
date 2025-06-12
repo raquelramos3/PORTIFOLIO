@@ -8,3 +8,11 @@ function contador() {
     mostraHTML.innerHTML = `<p> Número e cliques: ${cliques}</p>`; 
     
 }
+
+function reset() {
+
+    cliques = 0
+
+    mostraHTML.innerHTML = `<p> Número e cliques: ${cliques}</p>`; 
+
+}
